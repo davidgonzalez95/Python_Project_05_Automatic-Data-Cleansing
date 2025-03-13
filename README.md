@@ -1,14 +1,12 @@
 # Creating Automated Data Cleaning Pipelines Using Python and Pandas
-
-Find yourself running the same data cleaning steps time and again? Learn how to automate some of this boring stuff using Python and pandas.
-
-## Features
-- Standardized data import process
-- Automated data validation
-- Modular data cleaning pipeline
-- String cleaning and standardization
-- Data quality monitoring
--
+## Table of Contents  
+1. [Project Description](#project-description)  
+2. [Standardize Your Data Import Process](#standardize-your-data-import-process)  
+3. [Implement Automated Data Validation](#implement-automated-data-validation)  
+4. [Create a Data Cleaning Pipeline](#create-a-data-cleaning-pipeline)    
+5. [Automate String Cleaning and Standardization](#automate-string-cleaning-and-standardization)  
+6. [Monitor Data Quality Over Time](#monitor-data-quality-over-time)  
+7. [Conclusion](#conclusion)  
 
 ## Project Description
 
@@ -176,6 +174,7 @@ class DataCleaningPipeline:
                 
         return current_df, results
 ```
+You can then define functions to add data cleaning steps:
 ```python
     def remove_duplicates(df):
         return df.drop_duplicates()
