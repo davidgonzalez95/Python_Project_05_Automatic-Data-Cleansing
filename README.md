@@ -10,7 +10,7 @@
 
 ## Project Description
 
-Data cleaning doesn't have to be a time sink. Most data professionals spend up to 80% of their time wrangling messy data. Automation can significantly reduce this workload. This guide will help you build a robust, automated data cleaning system using Python and Pandas. Instead of working with a specific dataset, we focus on writing reusable functions and classes.
+Data cleaning doesn't have to be a time sink. Most data professionals spend up to 80% of their time wrangling messy data. Automation can significantly reduce this workload. This repository will help you build a robust, automated data cleaning system using Python and Pandas. Instead of working with a specific dataset, we focus on writing reusable functions and classes.
 
 ## Standardize Your Data Import Process
 
